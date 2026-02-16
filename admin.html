@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin (Demo) — NexLayer Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div style="padding:24px;max-width:900px;margin:0 auto">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+      <div class="logo">NXL</div>
+      <div>
+        <div style="font-weight:800;font-size:18px">NexLayer Admin (Demo)</div>
+        <div class="s-sub">Simple local admin - shows demo submissions stored in browser</div>
+      </div>
+      <div style="margin-left:auto">
+        <a href="/" class="admin-link">Back to site</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="font-weight:800;margin-bottom:8px">Demo Orders</div>
+      <div id="demoList" class="s-sub">Loading...</div>
+      <div style="display:flex;gap:8px;margin-top:12px">
+        <button id="refreshBtn" class="h-cta">Refresh</button>
+        <button id="clearBtn" class="admin-link">Clear demo storage</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
